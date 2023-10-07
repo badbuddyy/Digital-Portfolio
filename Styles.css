@@ -1,0 +1,165 @@
+body{
+	background-image: url(./Images/backround3.jpeg);
+	background-color: black;
+	color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+a{
+	background-color: transparent;
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+	top:0;
+	
+}
+a:hover{
+	color: #007c92;
+	text-decoration: underline;
+}
+h1 {
+	text-align: center;
+   font-size: 450%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: normal;
+   padding: 0px;
+   margin: 35px;
+}
+h2 {
+	text-align: center;
+   font-size: 250%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: normal;
+   padding: 0px;
+   margin: 0px;
+}
+h3{
+	font-style: italic;
+	padding: 0;
+	margin: 0px 0px 70px 0px;
+}
+
+span{
+	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+	font-size: 20px;	
+}
+
+p{
+	font-size: 18px;
+}
+
+.img1{
+	border-radius: 50%;
+	width: 40%;
+	border: 4px solid white;
+	margin-bottom: 0px;
+}
+.img2 {
+
+	width: 40%;
+	border: 4px solid white;
+	margin-bottom: 0px;
+}
+
+.naviBar  {
+	text-align: center;
+	background-color: #101010;
+	padding: 4px;
+	box-shadow: 2px 2px 2px 2px black;
+	
+}
+.bottomHeader {
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  background-color: #101010;;
+  overflow: hidden;
+  width: 100%;
+  padding: 1px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.b1{
+	font-size: 16px;
+}
+
+.container{
+	
+	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+	width: 700px;
+	height: auto;
+	text-align: center;
+	margin: auto;
+	
+}
+.container2{
+	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+	width: 1000px;
+	height: auto;
+	text-align: fixed;
+	margin: auto;
+}
+header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.topNav{
+	background-color:black;
+	overflow: hidden;
+	
+}
+
+.topNav a {
+	float: left;
+	padding: 14px 16px;
+	text-align: left;
+	text-decoration: none;
+	font-size: 16px;
+	color: whitesmoke;
+	
+}
+
+.topNav a:hover{
+	background-color: whitesmoke;
+	color: black;
+}
+
+.topNav a.active{
+	background-color: darkred;
+	color: whitesmoke;
+}
+.handles{
+	display: block;
+	position: fixed;
+	right: 0;
+	padding-right: 10px;
+}
+
+.handles a:hover{
+   background-color: darkred;
+}
+
+
+/* Apply styles to the container if needed */
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/* Other flexbox properties */
+  }
+
+  
+  .flex-container img{
+	height: 300px;
+    width: 475px;
+    margin: 18px;
+	transition: all 1s;
+  }
+  .flex-container img:hover{
+	transform: scale(1.1);
+    opacity: 0.60;
+  }
