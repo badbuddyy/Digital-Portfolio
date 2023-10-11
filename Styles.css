@@ -4,6 +4,8 @@ body{
 	color: white;
 	background-repeat: no-repeat;
 	background-size: cover;
+	overflow-y:auto;
+
 }
 
 a{
@@ -55,12 +57,19 @@ p{
 	border: 4px solid white;
 	margin-bottom: 0px;
 }
-.img2 {
 
+.resumeImage {
+	display: block;
 	width: 40%;
 	border: 4px solid white;
 	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow-y: scroll;
+	
+	
 }
+
 
 .naviBar  {
 	text-align: center;
@@ -143,6 +152,10 @@ header{
    background-color: darkred;
 }
 
+.handles img{
+	width: 25px;
+	height: 25px;
+}
 
 /* Apply styles to the container if needed */
 .flex-container {
@@ -162,4 +175,47 @@ header{
   .flex-container img:hover{
 	transform: scale(1.1);
     opacity: 0.60;
+  }
+
+  /* Media query for screens smaller than 768px (typical mobile screens) */
+@media (max-width: 768px) {
+	body {
+	  background-size: contain; /* Adjust background image sizing for smaller screens */
+	}
+  
+	.container, .container2 {
+	  width: 90%; /* Make containers take up 90% of the screen width */
+	  max-width: 100%; /* Ensure containers don't exceed the screen width */
+	}
+  
+	.flex-container img {
+	  width: 100%; /* Make images take up 100% of the container width */
+	  height: auto; /* Maintain image aspect ratio */
+	  margin: 10px 0; /* Adjust image margins for better spacing on smaller screens */
+	}
+  
+	h1 {
+	  font-size: 200%; /* Reduce the font size for headings */
+	}
+  
+	h2 {
+	  font-size: 150%; /* Reduce the font size for subheadings */
+	}
+  
+	p {
+	  font-size: 16px; /* Adjust text font size for better readability on small screens */
+	}
+  
+	.naviBar, .bottomHeader {
+	  padding: 2px; /* Reduce padding for navigation bars */
+	}
+  
+	.handles {
+	  padding-right: 5px; /* Adjust padding for handles */
+	}
+  
+	.handles img {
+	  width: 20px; /* Adjust handle icon size */
+	  height: 20px;
+	}
   }
