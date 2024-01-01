@@ -1,6 +1,6 @@
 
 let i = 0;
-let txt = '    Full Stack Developer with a degree in cybersecurity.           Please have a look around.                       ';
+let txt = 'Full Stack Developer with a degree in cybersecurity.Please have a look around.';
 
 let speed = 80;
 
