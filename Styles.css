@@ -5,6 +5,7 @@ html {
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   background: url(Images/backround3.jpeg) no-repeat center center fixed; 
+  background-color: #101010;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
